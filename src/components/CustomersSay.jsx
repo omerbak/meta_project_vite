@@ -1,5 +1,5 @@
 import React from 'react'
-import person from '../icons_assets/person.jpg'
+import person from '../icons_assets/person.webp'
 const CustomersSay = () => {
   return (
     <section className="testimonials">

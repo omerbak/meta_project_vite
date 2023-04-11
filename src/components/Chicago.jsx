@@ -1,6 +1,6 @@
 import React from 'react'
-import photo1 from '../icons_assets/Mario and Adrian A.jpg'
-import photo2 from '../icons_assets/Mario and Adrian b.jpg'
+import photo1 from '../icons_assets/Mario and Adrian A.webp'
+import photo2 from '../icons_assets/Mario and Adrian b.webp'
 
 const Chicago = () => {
   return (

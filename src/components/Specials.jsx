@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react'
-import meal1 from "../icons_assets/greek salad.jpg"
-import meal2 from "../icons_assets/bruchetta.jpg"
+import meal1 from "../icons_assets/greek salad.webp"
+import meal2 from "../icons_assets/bruchetta.webp"
 import meal3 from "../icons_assets/lemon dessert.jpg"
 
 // Meal card component
