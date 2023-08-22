@@ -1,5 +1,7 @@
 import React from "react";
-import person from "../icons_assets/person.webp";
+import person1 from "../icons_assets/Vincent.jpg";
+import person2 from "../icons_assets/Ayo.jpg";
+import person3 from "../icons_assets/Jessie.jpg";
 import { AiFillStar } from "react-icons/ai";
 
 const CustomersSay = () => {
@@ -11,7 +13,7 @@ const CustomersSay = () => {
           <div className="cus-card">
             <div className="card-top">
               <div className="cus-info">
-                <span className="cus-name">Omar</span>
+                <span className="cus-name">Vincent</span>
                 <div className="cus-rating">
                   <span>Rating:</span>
                   <span> 9</span>
@@ -19,50 +21,49 @@ const CustomersSay = () => {
                 </div>
               </div>
               <div className="cus-img-box">
-                <img src={person} alt="" />
+                <img src={person1} alt="" />
               </div>
             </div>
             <p className="cus-review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              nulla minima dicta quo! Molestias, quo?
+              Delicious food, excellent service. Would definitely recommend.
             </p>
           </div>
           <div className="cus-card">
             <div className="card-top">
               <div className="cus-info">
-                <span className="cus-name">Omar</span>
+                <span className="cus-name">Ayo</span>
                 <div className="cus-rating">
                   <span>Rating:</span>
-                  <span> 9</span>
+                  <span> 8.5</span>
                   <AiFillStar className="rating-icon" />
                 </div>
               </div>
               <div className="cus-img-box">
-                <img src={person} alt="" />
+                <img src={person2} alt="" />
               </div>
             </div>
             <p className="cus-review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              nulla minima dicta quo! Molestias, quo?
+              Hidden gem in city. Authentic food, reasonable prices. Great
+              service.
             </p>
           </div>
           <div className="cus-card">
             <div className="card-top">
               <div className="cus-info">
-                <span className="cus-name">Omar</span>
+                <span className="cus-name">Jessie</span>
                 <div className="cus-rating">
                   <span>Rating:</span>
-                  <span> 9</span>
+                  <span> 10</span>
                   <AiFillStar className="rating-icon" />
                 </div>
               </div>
               <div className="cus-img-box">
-                <img src={person} alt="" />
+                <img src={person3} alt="" />
               </div>
             </div>
             <p className="cus-review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              nulla minima dicta quo! Molestias, quo?
+              Wonderful experience. Delicious food, excellent service, cozy
+              atmosphere.
             </p>
           </div>
         </div>

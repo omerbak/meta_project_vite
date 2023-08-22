@@ -391,6 +391,7 @@ nav ul li:not(.login):hover {
 .card-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 12px;
 }
 .cus-info {
   font-size: var(--font-size-h3);
@@ -415,13 +416,15 @@ nav ul li:not(.login):hover {
   margin-bottom: 15px;
   justify-content: center;
   gap: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 2px solid var(--primay-color-1);
 }
 .cus-card .cus-img-box img {
   width: 90px;
   height: 90px;
   object-fit: cover;
   object-position: top;
-  border: 2px solid var(--primay-color-1);
 }
 /* .cus-card .cus-img-box .cus-name {
   display: block;
@@ -436,7 +439,7 @@ nav ul li:not(.login):hover {
   font-size: var(--font-body);
   line-height: 1.2;
   max-width: 280px;
-  /* text-align: center; */
+  text-align: center;
 }
 /* End Testimonial */
 /* Chicago Component*/
@@ -571,7 +574,7 @@ footer .container div ul li:hover {
 /* Booking section */
 .booking {
   flex: 1;
-  background: url(./icons_assets/bookings_bg.jpg);
+  background: url(./icons_assets/bookings_bg.webp);
   background-size: cover;
   background-position: center;
   position: relative;

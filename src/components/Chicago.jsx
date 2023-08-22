@@ -10,12 +10,11 @@ const Chicago = () => {
           <h1>Little Lemon</h1>
           <h4>Chicago</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-            facere modi facilis nemo quia molestias eum commodi corporis porro
-            molestiae accusamus beatae perspiciatis debitis quibusdam maxime,
-            ducimus a vero. Autem. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Rem dolor nostrum accusamus magni, nulla
-            repudiandae possimus iste nam recusandae libero?
+            Little Lemon is a hidden gem in Chicago serving up delicious and
+            authentic Mediterranean food. Our menu features a variety of dishes,
+            from classic favorites like hummus and baba ghanoush to more unique
+            creations like our lamb kebabs and grilled octopus. We also have a
+            wide selection of wines and beers to pair with your meal.
           </p>
         </div>
         <div className="chicago-img-box">
