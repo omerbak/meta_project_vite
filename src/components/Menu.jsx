@@ -47,7 +47,7 @@ const Menu = () => {
         </div>
         <div className="menu-items-box">
           {items.map((item, ind) => (
-            <Dish key={ind} item={item} />
+            <Dish key={item.id} item={item} />
           ))}
         </div>
       </div>
