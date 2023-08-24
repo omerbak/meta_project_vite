@@ -2,6 +2,7 @@ import Homepage from "./components/Homepage";
 import BookingPage from "./components/BookingPage";
 import CoomingSoon from "./components/CoomingSoon";
 import SharedLayout from "./components/SharedLayout";
+import Menu from "./components/Menu";
 import { Routes, Route } from "react-router-dom";
 import { useState, useReducer, useEffect } from "react";
 import { fetchAPI } from "./api";
@@ -42,7 +43,7 @@ function App() {
               />
             }
           />
-          <Route path="/menu" element={<CoomingSoon />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/login" element={<CoomingSoon />} />
         </Route>
       </Routes>
