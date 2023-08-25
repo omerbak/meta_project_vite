@@ -240,6 +240,8 @@ nav ul li:not(.login):hover {
   border: 3px solid transparent;
   transition: all 0.3s;
   text-align: center;
+  word-wrap: none;
+  flex-shrink: 0;
 }
 .cta-btn:hover {
   background-color: white;
@@ -792,6 +794,7 @@ button:disabled {
   align-items: center;
   gap: 8px;
   margin-bottom: 24px;
+  overflow-y: scroll;
 }
 .menu-catg {
   display: block;
@@ -800,6 +803,7 @@ button:disabled {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  flex-shrink: 0;
 }
 .menu-catg.selected {
   background-color: var(--primay-color-1);

@@ -62,7 +62,7 @@ const Specials = () => {
       <div className="container">
         <div className="top-elements">
           <h1>This Weekend Specials!</h1>
-          <a href="#" className="cta-btn">
+          <a href="/menu" className="cta-btn">
             Online Menu
           </a>
         </div>
