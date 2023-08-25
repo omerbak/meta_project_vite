@@ -4,6 +4,7 @@ import meal1 from "../icons_assets/greek salad.webp";
 import meal2 from "../icons_assets/bruchetta.webp";
 import meal3 from "../icons_assets/lemon dessert.jpg";
 import meal4 from "../icons_assets/humms.jpg";
+import { Link } from "react-router-dom";
 
 // Meal card component
 const MealCard = ({ imgurl, mealName, price }) => {
@@ -62,9 +63,9 @@ const Specials = () => {
       <div className="container">
         <div className="top-elements">
           <h1>This Weekend Specials!</h1>
-          <a href="/menu" className="cta-btn">
+          <Link to="/menu" className="cta-btn">
             Online Menu
-          </a>
+          </Link>
         </div>
         <div
           className="cards-box"
